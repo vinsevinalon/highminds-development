@@ -1,0 +1,165 @@
+{
+  "sections": {
+    "image_banner": {
+      "type": "image-banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "f5403e19-45fc-4fe1-bfbf-69a441f17a60": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18983141409068__f5403e19-45fc-4fe1-bfbf-69a441f17a60-1683276600b6531cde-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/345209900_3579847072274385_6098116348207327968_n.jpg",
+            "heading": "NOW AVAILABLE",
+            "heading_size": "h0",
+            "subheading": "EXCLUSIVE WEB STORE DEALS",
+            "button_label": "SHOP NOW",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--18983141409068__f5403e19-45fc-4fe1-bfbf-69a441f17a60-1683276600b6531cde-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/345024912_1283122239077769_4331887514956571241_n.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Shop now",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--18983141409068__f5403e19-45fc-4fe1-bfbf-69a441f17a60-1683276600b6531cde-0",
+        "template--18983141409068__f5403e19-45fc-4fe1-bfbf-69a441f17a60-1683276600b6531cde-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 3,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "fc812896-f3f0-4112-bdfc-a7043d8a702d": {
+      "type": "collage",
+      "blocks": {
+        "template--18983141409068__fc812896-f3f0-4112-bdfc-a7043d8a702d-1683577412a8683cf8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/344251192_1669051613520242_1669518034901159617_n_afd689e5-50c8-4556-b136-7c6093390049.jpg"
+          }
+        },
+        "template--18983141409068__fc812896-f3f0-4112-bdfc-a7043d8a702d-1683577412a8683cf8-1": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "product": "fire-eye-shorts",
+            "second_image": false
+          }
+        },
+        "template--18983141409068__fc812896-f3f0-4112-bdfc-a7043d8a702d-1683577412a8683cf8-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "frontpage"
+          }
+        }
+      },
+      "block_order": [
+        "template--18983141409068__fc812896-f3f0-4112-bdfc-a7043d8a702d-1683577412a8683cf8-0",
+        "template--18983141409068__fc812896-f3f0-4112-bdfc-a7043d8a702d-1683577412a8683cf8-1",
+        "template--18983141409068__fc812896-f3f0-4112-bdfc-a7043d8a702d-1683577412a8683cf8-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h0",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "<strong>LATEST DROPS<\/strong>",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 16,
+        "columns_desktop": 4,
+        "full_width": true,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "32cd8ff4-70ee-41b0-94c5-8276da157b69": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/344365259_190978353824523_1725263788232308303_n.jpg",
+        "image_2": "shopify:\/\/shop_images\/344558873_257746069988841_4494492919664963737_n.jpg",
+        "image_overlay_opacity": 10,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "ambient",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "image_banner",
+    "f5403e19-45fc-4fe1-bfbf-69a441f17a60",
+    "fc812896-f3f0-4112-bdfc-a7043d8a702d",
+    "featured_collection",
+    "32cd8ff4-70ee-41b0-94c5-8276da157b69"
+  ]
+}
