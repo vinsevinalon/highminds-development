@@ -2,6 +2,33 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "8e8acfc5-5c16-48f3-88f8-6624eb428b25": {
+      "type": "newsletter",
+      "blocks": {
+        "sections--19559207338284__8e8acfc5-5c16-48f3-88f8-6624eb428b25-16879275613b32f369-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>SUBSCRIBE TO OUR NEWSLETTER FOR LATEST NEWS<\/strong>",
+            "heading_size": "h2"
+          }
+        },
+        "sections--19559207338284__8e8acfc5-5c16-48f3-88f8-6624eb428b25-16879275613b32f369-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "sections--19559207338284__8e8acfc5-5c16-48f3-88f8-6624eb428b25-16879275613b32f369-0",
+        "sections--19559207338284__8e8acfc5-5c16-48f3-88f8-6624eb428b25-16879275613b32f369-2"
+      ],
+      "settings": {
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "9c01db31-2b02-4f19-9984-0b4cc851ef58": {
       "type": "custom-liquid",
       "settings": {
@@ -31,6 +58,7 @@
     }
   },
   "order": [
+    "8e8acfc5-5c16-48f3-88f8-6624eb428b25",
     "9c01db31-2b02-4f19-9984-0b4cc851ef58",
     "footer"
   ]
