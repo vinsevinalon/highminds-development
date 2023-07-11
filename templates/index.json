@@ -49,7 +49,7 @@
         "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "as-we-prosper-collection"
+            "collection": "no-backing-down"
           }
         },
         "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-1": {
@@ -57,11 +57,18 @@
           "settings": {
             "collection": "move-with-meaning-collection"
           }
+        },
+        "c58ed87f-96c5-4085-a8d3-14faeccf58af": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "as-we-prosper-collection"
+          }
         }
       },
       "block_order": [
         "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-0",
-        "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-1"
+        "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-1",
+        "c58ed87f-96c5-4085-a8d3-14faeccf58af"
       ],
       "settings": {
         "title": "<strong>LATEST COLLECTION<\/strong>",
