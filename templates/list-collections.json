@@ -3,7 +3,7 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "title": "NEWEST COLLECTION",
+        "title": "",
         "sort": "alphabetical",
         "image_ratio": "portrait",
         "columns_desktop": 2,
