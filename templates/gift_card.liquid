@@ -92,10 +92,10 @@
     {% endstyle %}
 
     {%- unless settings.type_body_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
+      <link as="font" href="{{ settings.type_body_font | font_url | preload_tag: as: 'script' }}" type="font/woff2" crossorigin>
     {%- endunless -%}
     {%- unless settings.type_header_font.system? -%}
-      <link rel="preload" as="font" href="{{ settings.type_header_font | font_url }}" type="font/woff2" crossorigin>
+      <link as="font" href="{{ settings.type_header_font | font_url | preload_tag: as: 'script' }}" type="font/woff2" crossorigin>
     {%- endunless -%}
 
     {{ 'template-giftcard.css' | asset_url | stylesheet_tag }}
@@ -132,6 +132,7 @@
           <img
             class="gift-card__image"
             src="{{ 'gift-card/card.svg' | shopify_asset_url }}"
+            loading="eager"
             alt=""
             height="{{ 570 | divided_by: 1.5 }}"
             width="570"

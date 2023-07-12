@@ -62,7 +62,7 @@
     <div class="email-signup-banner__box banner__box newsletter newsletter__wrapper isolate{% if section.settings.show_background_image == false %} email-signup-banner__box--no-image{% endif %} content-container color-{{ section.settings.color_scheme }} gradient content-container--full-width-mobile">
       <div class="password-header">
         <div class="password-3d-container">
-             <img src="https://cdn.shopify.com/s/files/1/0759/7985/0028/files/password-logo.png" alt="" width="300" height="300">
+             <img src="https://cdn.shopify.com/s/files/1/0759/7985/0028/files/password-logo.png" alt="" width="300" height="300" loading="lazy">
         </div>
         {%- if settings.logo != blank -%}
           {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
