@@ -31,18 +31,37 @@
     },
     "footer": {
       "type": "footer",
-      "disabled": true,
+      "blocks": {
+        "835449b7-2c2d-4de2-8305-b681432c8015": {
+          "type": "link_list",
+          "settings": {
+            "heading": "ABOUT US",
+            "menu": "about-us"
+          }
+        },
+        "7ebdab4f-1b5a-44c1-9945-ab2f804b0370": {
+          "type": "link_list",
+          "settings": {
+            "heading": "SUPPORT",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "835449b7-2c2d-4de2-8305-b681432c8015",
+        "7ebdab4f-1b5a-44c1-9945-ab2f804b0370"
+      ],
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
+        "color_scheme": "inverse",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "payment_enable": false,
-        "show_policy": false,
-        "margin_top": 36,
+        "payment_enable": true,
+        "show_policy": true,
+        "margin_top": 0,
         "padding_top": 36,
         "padding_bottom": 36
       }
