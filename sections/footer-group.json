@@ -32,15 +32,16 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "22ec5d89-acc2-4af4-bf6d-df58c64009e0": {
-          "type": "brand_information",
+        "7ebdab4f-1b5a-44c1-9945-ab2f804b0370": {
+          "type": "link_list",
           "settings": {
-            "show_social": true
+            "heading": "SUPPORT",
+            "menu": "footer"
           }
         }
       },
       "block_order": [
-        "22ec5d89-acc2-4af4-bf6d-df58c64009e0"
+        "7ebdab4f-1b5a-44c1-9945-ab2f804b0370"
       ],
       "settings": {
         "color_scheme": "accent-1",
