@@ -13,8 +13,8 @@
     "spacing_grid_vertical": 8,
     "animations_reveal_on_scroll": true,
     "animations_hover_elements": "3d-lift",
-    "buttons_border_thickness": 1,
-    "buttons_border_opacity": 100,
+    "buttons_border_thickness": 0,
+    "buttons_border_opacity": 0,
     "buttons_radius": 0,
     "buttons_shadow_opacity": 0,
     "buttons_shadow_horizontal_offset": 0,
@@ -189,6 +189,17 @@
           "button_label": "#c1c2c6",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
+        }
+      },
+      "scheme-62c003d2-3c9d-40ce-9235-86f11e057241": {
+        "settings": {
+          "background": "rgba(0,0,0,0)",
+          "background_gradient": "",
+          "text": "#ffffff",
+          "button": "rgba(0,0,0,0)",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#fff",
+          "shadow": "rgba(0,0,0,0)"
         }
       }
     }
