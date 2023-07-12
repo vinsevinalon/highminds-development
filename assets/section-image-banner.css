@@ -220,6 +220,7 @@
     border: none;
     border-radius: 0;
     box-shadow: none;
+    top: 125px;
   }
 
   .banner:not(.banner--mobile-bottom) .button--secondary {
