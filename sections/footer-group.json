@@ -32,6 +32,13 @@
     "footer": {
       "type": "footer",
       "blocks": {
+        "835449b7-2c2d-4de2-8305-b681432c8015": {
+          "type": "link_list",
+          "settings": {
+            "heading": "ABOUT US",
+            "menu": "about-us"
+          }
+        },
         "7ebdab4f-1b5a-44c1-9945-ab2f804b0370": {
           "type": "link_list",
           "settings": {
@@ -41,6 +48,7 @@
         }
       },
       "block_order": [
+        "835449b7-2c2d-4de2-8305-b681432c8015",
         "7ebdab4f-1b5a-44c1-9945-ab2f804b0370"
       ],
       "settings": {
