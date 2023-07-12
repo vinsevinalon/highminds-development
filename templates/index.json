@@ -3,6 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
+        "video_background": true,
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
