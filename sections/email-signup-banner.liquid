@@ -25,7 +25,7 @@
     }
   {%- endif -%}
 {%- endstyle -%}
-
+<div class="password-container">
 <div
   id="Banner-{{ section.id }}"
   class="email-signup-banner banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
@@ -60,10 +60,37 @@
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
     <div class="email-signup-banner__box banner__box newsletter newsletter__wrapper isolate{% if section.settings.show_background_image == false %} email-signup-banner__box--no-image{% endif %} content-container color-{{ section.settings.color_scheme }} gradient content-container--full-width-mobile">
+      <div class="password-header">
+        <div class="password-3d-container">
+             <img src="https://cdn.shopify.com/s/files/1/0759/7985/0028/files/password-logo.png" alt="" width="300" height="300">
+        </div>
+        {%- if settings.logo != blank -%}
+          {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
+          {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
+          {{
+            settings.logo
+            | image_url: width: 500
+            | image_tag:
+              class: 'password-logo',
+              widths: '50, 100, 150, 200, 250, 300, 400, 500',
+              width: settings.logo_width,
+              height: logo_height,
+              alt: logo_alt
+          }}
+        {%- endif -%}
+        {%- if shop.password_message != blank -%}
+          <div class="password-content">
+            {{ shop.password_message }}
+          </div>
+        {%- endif -%}
+      </div>
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'heading' -%}
-            <h2 class="email-signup-banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+            <h2 style="font-weight: bold;"class="email-signup-banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+              OFFICIAL WEBSTORE
+            </h2>
+            <h2 style="font-weight: bold;"class="email-signup-banner__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
               {{ block.settings.heading | escape }}
             </h2>
           {%- when 'paragraph' -%}
@@ -133,6 +160,7 @@
         {%- endcase -%}
       {%- endfor -%}
     </div>
+  </div>
   </div>
 </div>
 
@@ -263,11 +291,33 @@
       "label": "t:sections.email-signup-banner.settings.desktop_content_alignment.label"
     },
     {
-      "type": "color_scheme",
+      "type": "select",
       "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        },
+        {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        },
+        {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        },
+        {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
       "label": "t:sections.all.colors.label",
-      "info": "t:sections.email-signup-banner.settings.color_scheme.info",
-      "default": "background-1"
+      "info": "t:sections.email-signup-banner.settings.color_scheme.info"
     },
     {
       "type": "header",
