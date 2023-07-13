@@ -3,7 +3,7 @@
     "logo": "shopify:\/\/shop_images\/Logo.png",
     "logo_width": 270,
     "favicon": "shopify:\/\/shop_images\/download.jpg",
-    "type_header_font": "helvetica_n4",
+    "type_header_font": "helvetica_n3",
     "heading_scale": 100,
     "type_body_font": "helvetica_n4",
     "body_scale": 100,
@@ -118,6 +118,8 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_header_image": "shopify:\/\/shop_images\/social-sharing_cdf14a14-6361-46f1-995d-21adafed1dc3.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/highminds-logo.webp",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -195,10 +197,10 @@
         "settings": {
           "background": "rgba(0,0,0,0)",
           "background_gradient": "",
-          "text": "#ffffff",
+          "text": "rgba(0,0,0,0)",
           "button": "rgba(0,0,0,0)",
           "button_label": "#ffffff",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "rgba(0,0,0,0)",
           "shadow": "rgba(0,0,0,0)"
         }
       }
