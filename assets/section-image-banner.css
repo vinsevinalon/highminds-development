@@ -417,6 +417,13 @@
   margin-top: 1rem;
 }
 
+.hero-button {
+  background: transparent;
+  border: 1px solid;
+  font-size: 18px;
+  padding: 10px 10px;
+}
+
 .banner__buttons {
   display: inline-flex;
   flex-wrap: wrap;
