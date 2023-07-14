@@ -40,7 +40,7 @@
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "no-backing-down",
         "products_to_show": 16,
         "columns_desktop": 4,
         "full_width": true,
