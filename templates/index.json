@@ -7,7 +7,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "VIEW COLLECTION",
-            "button_link_1": "shopify:\/\/collections\/no-backing-down",
+            "button_link_1": "shopify:\/\/collections\/creature-feature-collection",
             "button_style_secondary_1": false,
             "button_label_2": "SHOP NOW",
             "button_link_2": "shopify:\/\/collections\/all",
@@ -32,66 +32,115 @@
         "show_text_below": false
       }
     },
-    "featured_collection": {
+    "ee6436a2-cd7c-4ef3-9b37-e46436a420ab": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>LATEST RELEASE<\/strong>",
+        "title": "",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "as-we-prosper-collection",
-        "products_to_show": 16,
-        "columns_desktop": 4,
+        "collection": "aquaflask-collection",
+        "products_to_show": 10,
+        "columns_desktop": 5,
         "full_width": true,
-        "show_view_all": true,
-        "view_all_style": "solid",
+        "show_view_all": false,
+        "view_all_style": "link",
         "enable_desktop_slider": true,
         "color_scheme": "background-1",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false,
-        "columns_mobile": "2",
+        "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "72a43e75-cbc1-4134-9693-05146f8e06ff": {
       "type": "collection-list",
       "blocks": {
-        "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-0": {
+        "fb8a08be-784e-4553-8886-4ddc36c11470": {
           "type": "featured_collection",
           "settings": {
-            "collection": "no-backing-down"
+            "collection": "aquaflask-collection"
           }
         },
-        "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-1": {
+        "eb3d80b0-6c7c-4114-bbb3-66e13bf46e15": {
           "type": "featured_collection",
           "settings": {
-            "collection": "move-with-meaning-collection"
+            "collection": "scare-tactics-collections"
           }
         },
-        "c58ed87f-96c5-4085-a8d3-14faeccf58af": {
+        "857b0294-2b9a-4b9f-adff-c93255738dd5": {
           "type": "featured_collection",
           "settings": {
-            "collection": "as-we-prosper-collection"
+            "collection": "creature-feature-collection"
+          }
+        },
+        "46ce1793-d2db-4c22-83a1-1b4a8c894cbc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "higher-than-life-collection"
+          }
+        },
+        "a7032689-79d0-461e-ab33-751b12eab009": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "september-quickdrop"
+          }
+        },
+        "9fff9b87-e26f-4f7f-99aa-2d2af287104d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "12th-anniversary-collection"
+          }
+        },
+        "6b27a0d0-5575-4b4c-a417-893521a186e1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "12-brands-collaboration"
+          }
+        },
+        "9dc446b5-317f-40d2-b9dc-a92359d9d6a1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "steady-club-golf-2023-collection"
+          }
+        },
+        "c2269228-3ea6-47c3-a3c4-beb150ad85ec": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "medisina-x-hghmnds"
+          }
+        },
+        "1ca24a15-d275-44a2-9c5c-189de606bdf1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "logo-thrust-collection"
           }
         }
       },
       "block_order": [
-        "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-0",
-        "template--19559207567660__72a43e75-cbc1-4134-9693-05146f8e06ff-1687927517c8e97a09-1",
-        "c58ed87f-96c5-4085-a8d3-14faeccf58af"
+        "fb8a08be-784e-4553-8886-4ddc36c11470",
+        "eb3d80b0-6c7c-4114-bbb3-66e13bf46e15",
+        "857b0294-2b9a-4b9f-adff-c93255738dd5",
+        "46ce1793-d2db-4c22-83a1-1b4a8c894cbc",
+        "a7032689-79d0-461e-ab33-751b12eab009",
+        "9fff9b87-e26f-4f7f-99aa-2d2af287104d",
+        "6b27a0d0-5575-4b4c-a417-893521a186e1",
+        "9dc446b5-317f-40d2-b9dc-a92359d9d6a1",
+        "c2269228-3ea6-47c3-a3c4-beb150ad85ec",
+        "1ca24a15-d275-44a2-9c5c-189de606bdf1"
       ],
       "settings": {
         "title": "<strong>LATEST COLLECTION<\/strong>",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "",
         "show_view_all": false,
         "columns_mobile": "1",
@@ -120,7 +169,7 @@
   },
   "order": [
     "image_banner",
-    "featured_collection",
+    "ee6436a2-cd7c-4ef3-9b37-e46436a420ab",
     "72a43e75-cbc1-4134-9693-05146f8e06ff",
     "c89d69e7-bca0-4593-8237-331adcfab308"
   ]

@@ -476,5 +476,13 @@
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address2_label": "Barangay",
+        "optional_address2_label": "Barangay"
+      }
+    }
   }
 }

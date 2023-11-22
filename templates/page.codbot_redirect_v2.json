@@ -1,0 +1,40 @@
+{
+  "sections": {
+    "c55c5fc9-b05b-4512-8316-896bfe17e03e": {
+      "type": "zegsu-rich-text",
+      "blocks": {
+        "template--14976665583658__c55c5fc9-b05b-4512-8316-896bfe17e03e-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Redirect",
+            "heading_size": "h1"
+          }
+        },
+        "template--14976665583658__c55c5fc9-b05b-4512-8316-896bfe17e03e-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please wait while we redirect you<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14976665583658__c55c5fc9-b05b-4512-8316-896bfe17e03e-heading-1",
+        "template--14976665583658__c55c5fc9-b05b-4512-8316-896bfe17e03e-text-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "e98d9bd8-64be-4253-8593-e23d04a24b25": {
+      "type": "zegsu-custom-liquid",
+      "settings": {
+        "custom_liquid": "<script>\n  function getParameterByName(name, url) {\n    if (!url) url = window.location.href;\n    name = name.replace(\/[\\[\\]]\/g, '\\\\$&');\n    var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),\n        results = regex.exec(url);\n    if (!results) return null;\n    if (!results[2]) return '';\n    return decodeURIComponent(results[2].replace(\/\\+\/g, ' '));\n  }\n  var id = getParameterByName(\"r\");\n  if(id) {\n    window.top.location.href = \"https:\/\/zegsu.com\/s\/\"+getParameterByName(\"r\")\n  } else {\n    alert(\"Invalid Redirect URL\");\n    window.top.location.href = \"\/\"\n  }\n<\/script>"
+      }
+    }
+  },
+  "order": [
+    "c55c5fc9-b05b-4512-8316-896bfe17e03e",
+    "e98d9bd8-64be-4253-8593-e23d04a24b25"
+  ]
+}
