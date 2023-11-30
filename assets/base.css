@@ -3329,3 +3329,7 @@ details-disclosure > details {
   object-fit: cover;
   z-index: -100;
 }
+
+.cart_icon {
+  height: 24px;
+}
